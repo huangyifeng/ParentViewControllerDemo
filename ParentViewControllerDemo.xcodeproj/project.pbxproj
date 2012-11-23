@@ -18,6 +18,18 @@
 		BB778075165F587A002E8B19 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB778074165F587A002E8B19 /* Default-568h@2x.png */; };
 		BB778078165F587A002E8B19 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB778077165F587A002E8B19 /* ViewController.m */; };
 		BB77807B165F587A002E8B19 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB778079165F587A002E8B19 /* ViewController.xib */; };
+		BB778092165F594B002E8B19 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB778084165F594B002E8B19 /* HomeViewController.m */; };
+		BB778093165F594B002E8B19 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB778085165F594B002E8B19 /* HomeViewController.xib */; };
+		BB778094165F594B002E8B19 /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB778087165F594B002E8B19 /* ScheduleViewController.m */; };
+		BB778095165F594B002E8B19 /* ScheduleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB778088165F594B002E8B19 /* ScheduleViewController.xib */; };
+		BB778096165F594B002E8B19 /* NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB77808A165F594B002E8B19 /* NotificationViewController.m */; };
+		BB778097165F594B002E8B19 /* NotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB77808B165F594B002E8B19 /* NotificationViewController.xib */; };
+		BB778098165F594B002E8B19 /* NewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB77808D165F594B002E8B19 /* NewViewController.m */; };
+		BB778099165F594B002E8B19 /* NewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB77808E165F594B002E8B19 /* NewViewController.xib */; };
+		BB77809A165F594B002E8B19 /* MailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB778090165F594B002E8B19 /* MailViewController.m */; };
+		BB77809B165F594B002E8B19 /* MailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB778091165F594B002E8B19 /* MailViewController.xib */; };
+		BB7780A6165F5A49002E8B19 /* DemoParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7780A4165F5A49002E8B19 /* DemoParentViewController.m */; };
+		BB7780A7165F5A49002E8B19 /* DemoParentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB7780A5165F5A49002E8B19 /* DemoParentViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +49,25 @@
 		BB778076165F587A002E8B19 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BB778077165F587A002E8B19 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BB77807A165F587A002E8B19 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		BB778083165F594B002E8B19 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		BB778084165F594B002E8B19 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		BB778085165F594B002E8B19 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		BB778086165F594B002E8B19 /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleViewController.h; sourceTree = "<group>"; };
+		BB778087165F594B002E8B19 /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewController.m; sourceTree = "<group>"; };
+		BB778088165F594B002E8B19 /* ScheduleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScheduleViewController.xib; sourceTree = "<group>"; };
+		BB778089165F594B002E8B19 /* NotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationViewController.h; sourceTree = "<group>"; };
+		BB77808A165F594B002E8B19 /* NotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationViewController.m; sourceTree = "<group>"; };
+		BB77808B165F594B002E8B19 /* NotificationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotificationViewController.xib; sourceTree = "<group>"; };
+		BB77808C165F594B002E8B19 /* NewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewViewController.h; sourceTree = "<group>"; };
+		BB77808D165F594B002E8B19 /* NewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewViewController.m; sourceTree = "<group>"; };
+		BB77808E165F594B002E8B19 /* NewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewViewController.xib; sourceTree = "<group>"; };
+		BB77808F165F594B002E8B19 /* MailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MailViewController.h; sourceTree = "<group>"; };
+		BB778090165F594B002E8B19 /* MailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MailViewController.m; sourceTree = "<group>"; };
+		BB778091165F594B002E8B19 /* MailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MailViewController.xib; sourceTree = "<group>"; };
+		BB7780A2165F5A49002E8B19 /* ApplicationType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationType.h; sourceTree = "<group>"; };
+		BB7780A3165F5A49002E8B19 /* DemoParentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoParentViewController.h; sourceTree = "<group>"; };
+		BB7780A4165F5A49002E8B19 /* DemoParentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoParentViewController.m; sourceTree = "<group>"; };
+		BB7780A5165F5A49002E8B19 /* DemoParentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoParentViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +114,8 @@
 		BB778064165F587A002E8B19 /* ParentViewControllerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BB7780A0165F5A1F002E8B19 /* RootViewController */,
+				BB778082165F58D3002E8B19 /* ChildController */,
 				BB77806D165F587A002E8B19 /* AppDelegate.h */,
 				BB77806E165F587A002E8B19 /* AppDelegate.m */,
 				BB778076165F587A002E8B19 /* ViewController.h */,
@@ -105,6 +138,39 @@
 				BB778074165F587A002E8B19 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB778082165F58D3002E8B19 /* ChildController */ = {
+			isa = PBXGroup;
+			children = (
+				BB778083165F594B002E8B19 /* HomeViewController.h */,
+				BB778084165F594B002E8B19 /* HomeViewController.m */,
+				BB778085165F594B002E8B19 /* HomeViewController.xib */,
+				BB778086165F594B002E8B19 /* ScheduleViewController.h */,
+				BB778087165F594B002E8B19 /* ScheduleViewController.m */,
+				BB778088165F594B002E8B19 /* ScheduleViewController.xib */,
+				BB778089165F594B002E8B19 /* NotificationViewController.h */,
+				BB77808A165F594B002E8B19 /* NotificationViewController.m */,
+				BB77808B165F594B002E8B19 /* NotificationViewController.xib */,
+				BB77808C165F594B002E8B19 /* NewViewController.h */,
+				BB77808D165F594B002E8B19 /* NewViewController.m */,
+				BB77808E165F594B002E8B19 /* NewViewController.xib */,
+				BB77808F165F594B002E8B19 /* MailViewController.h */,
+				BB778090165F594B002E8B19 /* MailViewController.m */,
+				BB778091165F594B002E8B19 /* MailViewController.xib */,
+			);
+			name = ChildController;
+			sourceTree = "<group>";
+		};
+		BB7780A0165F5A1F002E8B19 /* RootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BB7780A2165F5A49002E8B19 /* ApplicationType.h */,
+				BB7780A3165F5A49002E8B19 /* DemoParentViewController.h */,
+				BB7780A4165F5A49002E8B19 /* DemoParentViewController.m */,
+				BB7780A5165F5A49002E8B19 /* DemoParentViewController.xib */,
+			);
+			name = RootViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +229,12 @@
 				BB778073165F587A002E8B19 /* Default@2x.png in Resources */,
 				BB778075165F587A002E8B19 /* Default-568h@2x.png in Resources */,
 				BB77807B165F587A002E8B19 /* ViewController.xib in Resources */,
+				BB778093165F594B002E8B19 /* HomeViewController.xib in Resources */,
+				BB778095165F594B002E8B19 /* ScheduleViewController.xib in Resources */,
+				BB778097165F594B002E8B19 /* NotificationViewController.xib in Resources */,
+				BB778099165F594B002E8B19 /* NewViewController.xib in Resources */,
+				BB77809B165F594B002E8B19 /* MailViewController.xib in Resources */,
+				BB7780A7165F5A49002E8B19 /* DemoParentViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +248,12 @@
 				BB77806B165F587A002E8B19 /* main.m in Sources */,
 				BB77806F165F587A002E8B19 /* AppDelegate.m in Sources */,
 				BB778078165F587A002E8B19 /* ViewController.m in Sources */,
+				BB778092165F594B002E8B19 /* HomeViewController.m in Sources */,
+				BB778094165F594B002E8B19 /* ScheduleViewController.m in Sources */,
+				BB778096165F594B002E8B19 /* NotificationViewController.m in Sources */,
+				BB778098165F594B002E8B19 /* NewViewController.m in Sources */,
+				BB77809A165F594B002E8B19 /* MailViewController.m in Sources */,
+				BB7780A6165F5A49002E8B19 /* DemoParentViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +369,7 @@
 				BB778080165F587A002E8B19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
